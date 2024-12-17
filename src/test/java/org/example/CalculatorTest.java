@@ -16,6 +16,6 @@ class CalculatorTest {
     void exp() {
         Calculator calculator = new Calculator(2, 3);
         int result = calculator.exp();
-        assertEquals(9, result, "2 raised to the power of 3 should be 8");
+        assertEquals(8, result, "2 raised to the power of 3 should be 8");
     }
 }
